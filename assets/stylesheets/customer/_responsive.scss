@@ -23,4 +23,15 @@
             height: auto;
         }
     }
+
+    .top-image {
+        .overlay-caption {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            color: #FFF;
+            padding: 5px 18px;
+            font-family: "Open Sans";
+        }
+    }
 }

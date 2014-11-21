@@ -8,6 +8,17 @@
         float: left;
         margin: 0 25px 25px 0;
     }
+
+    .top-image {
+        .iphone .overlay-caption {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            color: #FFF;
+            padding: 5px 18px;
+            font-family: "Open Sans";
+        }
+    }
 }
 
 @media (min-width: 600px) {
@@ -21,17 +32,6 @@
         img {
             width: 100%;
             height: auto;
-        }
-    }
-
-    .top-image {
-        .iphone .overlay-caption {
-            position: absolute;
-            bottom: 0;
-            background: rgba(0,0,0,0.5);
-            color: #FFF;
-            padding: 5px 18px;
-            font-family: "Open Sans";
         }
     }
 }

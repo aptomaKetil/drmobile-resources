@@ -11,14 +11,14 @@
 // Default variables
 @import "aptoma/variables";
 
-// Customer variables (overrides aptoma/_variables)
-@import "customer/variables";
+// // Customer variables (overrides aptoma/_variables)
+// @import "customer/variables";
 
-// Base styles
-@import "aptoma/styles";
+// // Base styles
+// @import "aptoma/styles";
 
-// Customer styles
-@import "customer/styles";
+// // Customer styles
+// @import "customer/styles";
 
 body, .alf-chrome {
     background: red;

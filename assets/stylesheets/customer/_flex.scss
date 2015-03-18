@@ -1,0 +1,44 @@
+.flex-container {
+    display: flex;
+    padding: 5px;
+    position: relative;
+
+    .alf-container, .media-element {
+        width: 100%;
+        height: auto;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.flex-left,
+.flex-right {
+    padding: 15px;
+    flex-grow: 1;
+    position: relative;
+}
+
+.flex-left {
+    flex-grow: 0;
+    width: 100px;
+}
+
+.flex-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-right > div {
+    padding: 15px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.flex-right > div:first-child {
+    padding: 15px;
+    position: relative;
+    flex-grow: 0;
+}

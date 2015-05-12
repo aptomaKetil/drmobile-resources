@@ -37,7 +37,8 @@
     }
 
     .header-sans-serif h1 {
-        font-size: 60px;
+        font-size: 4em;
+        line-height: 1em;
     }
 
     .overlay-caption {
@@ -67,9 +68,10 @@
 
 .tmpl-gallery-iphone .alf-slideshow-toggle:before,
 .iphone .alf-slideshow-toggle:before {
+    font-family: $fonts-sans;
     content: 'Vis galleri';
     line-height: 50px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -88,4 +90,48 @@
 .tmpl-gallery .alf-slideshow-stack-1,
 .tmpl-gallery .alf-slideshow-stack-2 {
     display: none;
+}
+
+.alf-gt600 {
+    .alf-container-inline {
+        float: right;
+        margin-left: 20px;
+
+        .alf-slideshow,
+        .media-element {
+            max-width: 320px;
+        }
+    }
+
+    .dp-plugin-element {
+        clear: both;
+    }
+}
+
+.iphone .title {
+    font-size: 10px;
+}
+
+.alf-gt400.iphone .title {
+    font-size: 12px;
+}
+
+.alf-gt500.iphone .title {
+    font-size: 13.5px;
+}
+
+.alf-gt600.iphone .title {
+    font-size: 15px;
+}
+
+.alf-gt700.iphone .title {
+    font-size: 16.5px;
+}
+
+.alf-gt800.iphone .title {
+    font-size: 18px;
+}
+
+.alf-gt900.iphone .title {
+    font-size: 20px;
 }

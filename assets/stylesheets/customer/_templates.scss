@@ -38,6 +38,13 @@ blockquote {
     }
 }
 
+.article-body {
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 654px;
+}
+
 .title {
     margin-top: 0;
 }
